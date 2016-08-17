@@ -3,8 +3,8 @@
   <meta charset=UTF-8/>
   <title>TSB GeoConverter</title>
 
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <script src="https://maps.google.com/maps?file=api&v=2&key=ABQIAAAAYxpy0HiKBWXiyhVrpVqkshTzRM_GTxWOqTaXXRScn8KwUCiJWhT96ZS2MOLTq-SEmmJL1_cNrib9tA" type="text/javascript">
   </script>
@@ -12,16 +12,10 @@
 </head>
 <body>
 
-<table>
-  <tr>
-    <td>
-      <h3 id="head">Geodatenkonvertierer</h3>
-          </td>
-    <tr>
-		<img src="https://www.berlin.de/binaries/asset/image_assets/3928275/ratio_4_3/1444305781/170x130/">
+<div class=container>
+    <img class="img-responsive" algin="center" src="https://www.berlin.de/binaries/asset/image_assets/3928275/ratio_4_3/1444305781/170x130/"></img>
+    <h1 id="head">Geodatenkonvertierer</h1>
 
-    </tr>
-  </tr>
   <tr>
     <td>
       <div id="outline">
@@ -54,7 +48,7 @@ cols="40" rows="5" wrap="off" title="Fehlerbericht"></textarea><br/>
         <p>Ausgabeformat: <code> lng, lat, Addresse</code>
 
         <p><span id="api-version"></span></p>
-        <p>Codebase von <a href="http://koti.mbnet.fi/ojalesa/exam/index.html">Esa</a></p>
+        <p>Codebase von <a href="https://koti.mbnet.fi/ojalesa/exam/index.html">Esa</a></p>
       </div>
     </td>
   </tr>
@@ -62,7 +56,7 @@ cols="40" rows="5" wrap="off" title="Fehlerbericht"></textarea><br/>
 <textarea id="memo"
 cols="60" rows="30" wrap="off" title="Copy and edit your material here."></textarea>
 
-
+</div>
 <script type="text/javascript">
 
 /**
